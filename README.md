@@ -1,41 +1,31 @@
-Overview
-This project focuses on performing Exploratory Data Analysis (EDA) and predictive modeling on a medical insurance dataset. The primary goal is to understand how different individual characteristics—such as age, BMI, smoking status, and region—impact annual medical insurance charges and to build a model that can accurately estimate these costs.
+# Medical Insurance Cost Predictor
 
-Dataset Features
-The analysis is performed on a dataset containing 1,338 records with the following attributes:
+An end-to-end data science project to analyze and predict healthcare costs using individual characteristic data.
 
-Age: Age of the primary beneficiary.
+## 📌 Project Overview
+This project performs **Exploratory Data Analysis (EDA)** and predictive modeling on a medical insurance dataset. The goal is to understand how factors like age, BMI, and smoking status impact annual charges and to build a model that accurately estimates these costs.
 
-Sex: Gender (female/male).
+## 📊 Dataset Features
+The analysis uses a dataset of 1,338 records with the following attributes:
+* **Age:** Primary beneficiary's age.
+* **Sex:** Gender (female/male).
+* **BMI:** Body Mass Index (weight relative to height).
+* **Children:** Number of dependents covered.
+* **Smoker:** Smoking status (yes/no).
+* **Region:** Residential area in the US.
+* **Charges:** Individual medical costs (Target Variable).
 
-BMI: Body Mass Index, providing an understanding of body weight relative to height.
+## ⚙️ Key Workflow
+1. **Data Loading & Cleaning:** Importing data with `pandas` and verifying there are no missing values.
+2. **Exploratory Data Analysis (EDA):** Visualizing distributions and correlations using `seaborn` and `matplotlib`.
+3. **Data Preprocessing:** Preparing categorical variables for machine learning models.
+4. **Predictive Modeling:** Implementing regression analysis to estimate charges.
 
-Children: Number of children/dependents covered by health insurance.
+## 🛠️ Technologies Used
+* **Python** (Core language)
+* **Pandas & NumPy** (Data manipulation)
+* **Matplotlib & Seaborn** (Data visualization)
+* **Jupyter Notebook** (Development environment)
 
-Smoker: Smoking status (yes/no).
-
-Region: The beneficiary's residential area in the US (northeast, southeast, southwest, northwest).
-
-Charges: Individual medical costs billed by health insurance (Target Variable).
-
-Key Workflow
-Data Loading & Cleaning: Importing the dataset using pandas and checking for missing values (none were found in this dataset).
-
-Exploratory Data Analysis (EDA):
-
-Statistical summary of numerical features (mean, standard deviation, quartiles).
-
-Visualizing distributions and correlations using seaborn and matplotlib.
-
-Data Preprocessing: Preparing categorical variables for machine learning models.
-
-Predictive Modeling: (Note: Based on your notebook, the initial analysis and data exploration are complete; you can add specific models like Linear Regression or Random Forest if you have implemented them further down).
-
-Technologies Used
-Python (Core programming language)
-
-Pandas & NumPy (Data manipulation and numerical analysis)
-
-Matplotlib & Seaborn (Data visualization)
-
-Jupyter Notebook (Interactive development environment)
+---
+*Created for the Medical Insurance Cost Prediction project.*
